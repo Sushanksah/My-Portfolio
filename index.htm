@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushank Sah Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Navigation Section -->
+        <header class="heading" id="nabvar">
+            <div class="logo">
+                <div class="logo-container">
+                </div>
+            </div>
+            <nav class="navBar">
+                <!-- Navigation links -->
+                <ul id="navlist">
+                    <li><a href="#home"><span>Home</span></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="open"></i>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Home Section -->
+            <section id="home" class="home">
+                <div class="intro">
+                    <!-- Introduction text -->
+                    <h2> Hello, I'm <span>Sushank</span> Sah</h2>
+                    <p>Welcome to my digital playground! <br>I'm a <span>Frontend</span> web developer with a love for transforming ideas into interactive web experiences. Dive in to see my latest projects, learn about my skills, and discover what makes me tick.</p>
+                </div>
+                <div class="profileImg">
+                    <div class="profileImgContainer"></div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="aboutImg">
+                    <div class="imgContainer"></div>
+                </div>
+                <!-- About Text -->
+                <div class="aboutText">
+                    <h2><span>About</span> Me</h2>
+                    <p>Hi! I am Sushank Sah, a frontend web developer with expertise in HTML, CSS, and JavaScript. I am passionate about creating visually appealing and user-friendly websites. My projects showcase my commitment to innovation and efficiency. With additional knowledge in Java, I bring a well-rounded approach to development. Continuously learning and improving, I am dedicated to delivering high-quality work. Let’s build something amazing together!.</p>
+                   
+                    <div class="tabLinks">
+                        <p class="tabtitle activelink" id="skills">Skills</p>
+                        <p class="tabtitle" id="experience">Experience</p>
+                        <p class="tabtitle" id="education">Education</p>
+                    </div>
+                    
+                    <!-- tablist for skills -->
+                    <div class="tablist activeTab" id="skills-content">
+                        <ul>
+                            <li><span>Web-Deelopment</span><br>HTML, CSS, JavaScript, React</li>
+                            <li><span>JAVA</span></li>
+                            <li><span>MySql</span></li>
+                        </ul>
+                    </div>
+                    <!-- tablist for Experience -->
+                    <div class="tablist hidden" id="experience-content">
+                        <ul>
+                            <li><span>Sales and Marketing Operations as Intern</span><br>Tech Analogy (current name - MyEquation)</li>
+
+                        </ul>
+                    </div>
+                    
+                    <!-- tablist for Education -->
+                    <div class="tablist hidden" id="education-content">
+                        <ul>
+                            <li><span>Computer Science Engineering</span><br>SRM Institute of Science and Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+                <!-- Projects content -->
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <!-- Individual projects can be listed here -->
+                    <div class="project">
+                        <h3>WeatherApp</h3>
+                        <img src="images/project1.png">
+                        <div class="layer">
+                            <p>Explore global weather conditions instantly with my interactive webpage, providing real-time temperature, location details, and current weather conditions with emojis.</p>
+                            <a href="https://weather-app-amber-eta.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>Netflix Clone using React with API's</h3>
+                        <img src="images/project2.png">
+                        <div class="layer">
+                            <p>Experience a Netflix clone built with React, featuring dynamic content fetched via APIs.</p>
+                            <a href="https://netflic-clone-using-react.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>Portfolio</h3>
+                        <img src="images/project3.png">
+                        <div class="layer">
+                            <p>Welcome to my Portfolio.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Sushanksah?tab=repositories" target="_blank"><button class="btn">See More</button></a>
+            </section>
+
+            <!-- Connect Section -->
+            <section id="connect" class="connect">
+                <!-- Connect or Contact form -->
+                <div class="contactConatiner">
+                    <div class="left">
+                        <h1><span>Contact</span> Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> sushanksah0987@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> (+91) 8603892053</p>
+                        <div class="socialMedia">
+                            <a href="https://www.linkedin.com/in/sushanksah/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Sushanksah" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.instagram.com/rapdasitara/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                        <a href="images/Sushank Sah.pdf" download class="btn">Download CV</a>
+                    </div>
+                    <div class="right">
+                        <h2>Let's <span>CREATE</span> something amazing together! Send us your queries or <span>COLLABORATION</span> proposals.</h2>
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <p class = formMsg></p>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="details">
+                <!-- Footer details -->
+                <p>© 2024 <span>Sushank</span> Sah. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="logic.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbywJ1qYwNIjziCwr5KQebrybuMkvfGXbE8GuFmnWvnr6e_Lf2s_V_ckG57DIDKfGc3a/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
